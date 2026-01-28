@@ -18,11 +18,24 @@ This project uses SQL to analyze employee benefits, workforce size, and employee
 A simulated Fortune 500 dataset containing company revenue, workforce size, employee benefits, and average employee tenure. The dataset was designed to reflect realistic HR and workforce metrics.
 
 ## Key Analyses
-- Employee retention comparison based on healthcare benefits
-- Industry-level benchmarking of PTO and maternity leave
-- Workforce size and revenue segmentation using CASE statements
-- Identification of top-performing employers using subqueries
-- Industry retention ranking using window functions
+- ## Key Analyses
+- **Impact of Healthcare Benefits on Retention**  
+  Compared average employee tenure between companies that offer healthcare benefits and those that do not to assess the relationship between benefits and retention.
+
+- **Industry-Level Benefits & Retention Benchmarking**  
+  Evaluated average paid time off, maternity leave duration, and employee tenure across industries to identify sectors offering the most competitive benefits.
+
+- **Workforce Size & Benefit Scaling**  
+  Segmented companies by employee count to analyze how benefits and retention trends differ between small, medium, and large organizations.
+
+- **Revenue Category vs Employee Benefits**  
+  Categorized companies into low, mid, and high revenue groups to determine whether higher-revenue organizations offer more generous benefits.
+
+- **Top Employers Based on Benefits & Retention**  
+  Identified companies that exceed overall averages for paid time off, maternity leave, and employee tenure using benchmark-based subqueries.
+
+- **Industry Retention Ranking**  
+  Ranked industries by average employee tenure using window functions to highlight sectors with the strongest employee retention.
 
 ## Repository Structure
 schema/

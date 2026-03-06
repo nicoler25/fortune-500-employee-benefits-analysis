@@ -36,6 +36,13 @@ A simulated Fortune 500 dataset containing company revenue, workforce size, empl
 - **Industry Retention Ranking**  
   Ranked industries by average employee tenure using window functions to highlight sectors with the strongest employee retention.
 
+## Key Insights
+
+- Companies offering healthcare benefits tend to have slightly higher average employee tenure than companies that do not.
+- Technology and Healthcare industries appear to offer the most competitive employee benefits packages.
+- Larger organizations tend to provide more paid time off and longer maternity leave policies.
+- Higher revenue companies often provide stronger benefit packages, which may contribute to higher employee retention.
+
 ## Repository Structure
 
 schema/

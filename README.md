@@ -17,7 +17,7 @@ This project uses SQL to analyze employee benefits, workforce size, and employee
 ## Dataset
 A simulated Fortune 500 dataset containing company revenue, workforce size, employee benefits, and average employee tenure. The dataset was designed to reflect realistic HR and workforce metrics.
 
-## Key Analyses
+
 - **Impact of Healthcare Benefits on Retention**  
   Compared average employee tenure between companies that offer healthcare benefits and those that do not to assess the relationship between benefits and retention.
 

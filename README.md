@@ -1,56 +1,28 @@
-# Fortune 500 Employee Benefits & Retention Analysis
+# Fortune 500 Employee Benefits Analysis | SQL Case Study
 
 ## Overview
-This project uses SQL to analyze employee benefits, workforce size, and employee retention trends across Fortune 500–style companies. The analysis focuses on how benefits such as healthcare coverage, paid time off, and maternity leave vary by industry, company size, and revenue level.
-
-## Business Questions
-- Do companies offering healthcare benefits retain employees longer?
-- How do employee benefits vary across industries?
-- Which industries have the highest average employee tenure?
-- Do higher-revenue or larger companies offer more competitive benefits?
+This SQL case study analyzes employee benefits, workforce size, and retention trends across Fortune 500-style companies. Using PostgreSQL, the project explores how healthcare coverage, paid time off, maternity leave, company size, and revenue relate to employee tenure.
 
 ## Tools Used
-- SQL (PostgreSQL)
-- Relational database design
-- Aggregations, filtering, and window functions
+- SQL
+- PostgreSQL
+- Excel
 
-## Dataset
-A simulated Fortune 500 dataset containing company revenue, workforce size, employee benefits, and average employee tenure. The dataset was designed to reflect realistic HR and workforce metrics.
+## Dataset Snapshot
+- Simulated Fortune 500 company dataset
+- Company-level data on revenue, workforce size, healthcare benefits, paid time off, maternity leave, and average employee tenure
+- Used for company-level and industry-level analysis
 
-## Key Analyses
-- **Impact of Healthcare Benefits on Retention**  
-  Compared average employee tenure between companies that offer healthcare benefits and those that do not to assess the relationship between benefits and retention.
+## Key Findings
+- Companies offering healthcare benefits showed slightly higher average employee tenure
+- Technology and Healthcare companies offered the most competitive benefits packages in this dataset
+- Larger companies tended to provide more paid time off and longer maternity leave
+- Higher-revenue companies often offered stronger benefits overall
 
-- **Industry-Level Benefits & Retention Benchmarking**  
-  Evaluated average paid time off, maternity leave duration, and employee tenure across industries to identify sectors offering the most competitive benefits.
+## Project Visuals
+![Benefits by Industry](images/benefits-by-industry.png)
+![Retention by Healthcare Coverage](images/retention-by-healthcare.png)
+![Benefits by Revenue Category](images/benefits-by-revenue.png)
 
-- **Workforce Size & Benefit Scaling**  
-  Segmented companies by employee count to analyze how benefits and retention trends differ between small, medium, and large organizations.
-
-- **Revenue Category vs Employee Benefits**  
-  Categorized companies into low, mid, and high revenue groups to determine whether higher-revenue organizations offer more generous benefits.
-
-- **Top Employers Based on Benefits & Retention**  
-  Identified companies that exceed overall averages for paid time off, maternity leave, and employee tenure using benchmark-based subqueries.
-
-- **Industry Retention Ranking**  
-  Ranked industries by average employee tenure using window functions to highlight sectors with the strongest employee retention.
-
-## Key Insights
-
-- Companies offering healthcare benefits tend to have slightly higher average employee tenure than companies that do not.
-- Technology and Healthcare industries appear to offer the most competitive employee benefits packages.
-- Larger organizations tend to provide more paid time off and longer maternity leave policies.
-- Higher revenue companies often provide stronger benefit packages, which may contribute to higher employee retention.
-
-## Repository Structure
-
-schema/
-└── create_fortune_companies_table.sql
-
-data/
-└── insert_fortune_companies_data.sql
-
-analysis/
-└── benefits_and_tenure_analysis.sql
-
+## Skills Demonstrated
+SQL, aggregation, filtering, subqueries, window functions, data analysis, business analysis

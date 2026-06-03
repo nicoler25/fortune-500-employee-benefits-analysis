@@ -52,7 +52,7 @@ The dataset includes:
 
 View the SQL analysis here:
 
-benefits_and_tenure_analysis.sql
+[benefits_and_tenure_analysis.sql](analysis/benefits_and_tenure_analysis.sql)
 
 ## SQL Techniques Used
 
